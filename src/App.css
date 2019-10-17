@@ -1,0 +1,45 @@
+.App {
+ 
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin 5s linear;
+  perspective: 1000px;
+  height: 80px;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #25d8ed;
+  height: 15%;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: rotateY(0deg); }
+  100%  { transform: rotateY(360deg); }
+}
+.app {
+ border-top: 6px solid rgb(228, 228, 228);;
+  display: grid;
+    height: 80%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;
+    grid-template-areas: 
+        "r m m m m m"
+        "r m m m m m"
+        "r m m m m m"
+        "r m m m m m"
+        "r m m m m m"
+        "n f f f f f";
+}
